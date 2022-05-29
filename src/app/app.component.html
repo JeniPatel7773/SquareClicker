@@ -1,0 +1,10 @@
+<div class="body">
+<div class="game-body" (click)="targetMissed()" #gameBody>
+  <div class="target" [style.transform]="transformVal" (click)="targetClicked($event)">
+
+  </div>
+</div>
+<div class="score-panel">
+   Time left for Click {{timer}}secs. Your Score is: {{score}}
+</div>
+</div>
